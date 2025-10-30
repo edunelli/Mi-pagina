@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Moderna</title>
+    <!-- Vinculamos el CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Mi Página</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+<section id="inicio">
+    <h2>Inicio</h2>
+    <p>Bienvenido a mi página web moderna. Aquí encontrarás información sobre mis servicios y cómo contactarme fácilmente.</p>
+</section>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+    <div class="servicios-container">
+        <div class="servicio-card">
+            <h3>Diseño Web</h3>
+            <p>Páginas modernas, responsivas y atractivas para tu negocio.</p>
+        </div>
+        <div class="servicio-card">
+            <h3>Marketing Digital</h3>
+            <p>Gestión de redes sociales y estrategias digitales efectivas.</p>
+        </div>
+        <div class="servicio-card">
+            <h3>Soporte Técnico</h3>
+            <p>Asesoramiento y solución de problemas tecnológicos rápidamente.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Rellena el siguiente formulario para enviarnos un mensaje:</p>
+    <form action="mailto:tuemail@dominio.com" method="post" enctype="text/plain">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Mi Página Moderna. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
